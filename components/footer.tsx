@@ -13,26 +13,29 @@ export function Footer() {
             </p>
           </div>
           <div className="space-y-2">
-            <div className="flex items-center gap-2">
+            <div>
               <Link
                 href="https://maps.app.goo.gl/8H79iavas9Qaq25a8"
                 target="_blank"
-                className="flex items-center gap-2"
+                className="flex items-center gap-2 text-muted-foreground hover:text-primary"
               >
                 <MapPin className="h-5 w-5" />
                 <span>Lagny-sur-marne ,France</span>
               </Link>
             </div>
-            <div className="flex items-center gap-2">
-              <Link href="tel:+33620932403" className="flex items-center gap-2">
+            <div>
+              <Link
+                href="tel:+33620932403"
+                className="flex items-center gap-2 text-muted-foreground hover:text-primary "
+              >
                 <Phone className="h-5 w-5" />
                 <span>+33 6 20 93 24 03</span>
               </Link>
             </div>
-            <div className="flex items-center gap-2">
+            <div className="">
               <Link
                 href="mailto:jo.bensadoun@gmail.com"
-                className="text-muted-foreground hover:text-primary"
+                className="text-muted-foreground hover:text-primary flex items-center gap-2"
               >
                 <Mail className="h-5 w-5" />
                 <span> jo.bensadoun@gmail.com</span>
